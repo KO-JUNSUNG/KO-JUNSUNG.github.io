@@ -1,6 +1,6 @@
 ---
 title: "Quadrotor min-snap trajectory generation: differential-flatness to Quadratic Programming"
-date: 2026-07-02
+date: 2026-07-02 09:00:00
 permalink: /posts/2026/07/primitive-planner-1/
 tags:
   - drone

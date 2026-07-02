@@ -1,6 +1,6 @@
 ---
 title: "Quadrotor min-snap trajectory generation: 구현 (basis · Q · KKT solve)"
-date: 2026-07-02
+date: 2026-07-02 10:00:00
 permalink: /posts/2026/07/primitive-planner-2/
 tags:
   - drone
