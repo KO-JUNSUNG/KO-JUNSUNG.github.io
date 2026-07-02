@@ -1,5 +1,20 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<!-- MathJax: renders $...$ (inline) and $$...$$ (display) math.
+     MathJax 2.7.x is used because kramdown converts $$...$$ into
+     <script type="math/tex"> tags that only MathJax 2 reads natively,
+     while tex2jax.inlineMath also picks up the raw single-$ inline math. -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    }
+  });
+</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_CHTML"></script>
+
 {% include analytics.html %}
 
 {% include comments-providers/scripts.html %}
